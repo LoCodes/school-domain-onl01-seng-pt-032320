@@ -37,3 +37,5 @@ class School
     end
   end
 end
+
+School
