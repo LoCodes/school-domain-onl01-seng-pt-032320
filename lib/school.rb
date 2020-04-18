@@ -13,12 +13,12 @@
 
 
 class School
-  attr_accessor :add_student :grade :sort
-  attr_reader :roster
+  attr_accessor :add_student :sort
+  attr_reader :roster :grade
 
   ROSTER = []
 
   def roster(roster)
-    @roster = roster 
+    @roster = roster
   end
 end
