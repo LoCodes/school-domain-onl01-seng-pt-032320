@@ -15,9 +15,11 @@
 class School
   #attr_accessor :add_student :sort :grade
   attr_reader :name, :roster
-  ROSTER = []
+  
+  #ROSTER = []
 
   def initialize(name)
     @name = name
+    @roster = []
   end
 end
