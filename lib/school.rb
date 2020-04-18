@@ -11,6 +11,7 @@
 #   #sort
 #     is able to sort the students (FAILED - 6)
 
+require 'pry'
 
 class School
   #attr_accessor :add_student :sort :grade
@@ -26,5 +27,6 @@ class School
   def add_student(students, grade)
     roster[grade] = []
     roster[grade] << students
+    binding.pry
   end
 end
