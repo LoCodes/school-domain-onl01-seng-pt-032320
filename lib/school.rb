@@ -24,7 +24,7 @@ class School
   end
 
   def add_student(students, grade)
-    roster[grade] || = []
+    roster[grade] = []
     roster[grade] << students
   end
 end
