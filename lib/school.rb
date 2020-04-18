@@ -41,4 +41,3 @@ class School
   end
 end
 
-puts School
