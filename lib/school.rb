@@ -1,4 +1,4 @@
-# # code here!
+
 # School
 #   ::new
 #     has an empty roster when initialized
