@@ -31,6 +31,9 @@ class School
     @roster[grade]
   end
 
+  # #sort
+  #   is able to sort the students
+
   def sort
     @roster.each do |grade, students|
      students.sort!
