@@ -15,7 +15,7 @@
 class School
   #attr_accessor :add_student :sort :grade
   attr_reader :name, :roster
-  
+
   #ROSTER = []
 
   def initialize(name)
