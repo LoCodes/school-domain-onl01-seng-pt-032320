@@ -33,7 +33,7 @@ class School
 
   def sort
     @roster.each do |student_name, grade|
-      student_name.sort_by { |student_name, grade| str.length }
+      student_name.sort
     end
   end
 end
