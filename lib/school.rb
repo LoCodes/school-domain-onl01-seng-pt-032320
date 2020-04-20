@@ -35,8 +35,8 @@ class School
   #   is able to sort the students
 
   def sort
-    @roster.each do |grade, students|
-     students.sort!
+    @roster.each do |grade, studen_name|
+     studen_name.sort!
     end
   end
 end
